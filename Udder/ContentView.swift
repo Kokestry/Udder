@@ -11,8 +11,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Label("Freshmilk on demand.", systemImage: "1.circle")
-            Text("Hello, world!")
-                .padding()
+            List {
+                Text("Hello, world!")
+                    .padding()
+
+                
+            }
         }
     }
 }
