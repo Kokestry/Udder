@@ -14,7 +14,7 @@ struct ContentView: View {
         VStack {
             Label("Freshmilk on demand.", systemImage: "1.circle")
             List {
-                Text("Hello, world!!!!!")
+                Text("Hello, world!!!!!!!!")
                     .padding()
 
                 
